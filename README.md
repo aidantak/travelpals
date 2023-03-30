@@ -1,4 +1,4 @@
-# TravelPals
+# [TravelPals](www.travelpals.me)
 
 TravelPals is a web application that connects travelers worldwide. Users can create profiles, join and host events in various categories, and chat with each other.
 
