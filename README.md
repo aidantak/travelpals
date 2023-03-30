@@ -10,7 +10,7 @@ www.travelpals.me
 
 #### TravelPals was built using the following technologies:
 
-* Ruby on Rails
+* Ruby and Ruby on Rails
 * JavaScript and Stimulus
 * HTML and SCSS
 * WebSocket and ActionCable
