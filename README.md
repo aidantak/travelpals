@@ -1,4 +1,4 @@
-### TravelPals
+# TravelPals
 
 TravelPals is a web application that connects travelers worldwide. Users can create profiles, join and host events in various categories, and chat with each other.
 
@@ -6,7 +6,7 @@ TravelPals is a web application that connects travelers worldwide. Users can cre
 
 ### Technologies
 
-# TravelPals was built using the following technologies:
+#### TravelPals was built using the following technologies:
 
 * Ruby on Rails
 * JavaScript and Stimulus
@@ -15,7 +15,7 @@ TravelPals is a web application that connects travelers worldwide. Users can cre
 
 ### Features
 
-# TravelPals has the following features:
+#### TravelPals has the following features:
 
 * User registration and authentication
 * User profiles with profile pictures and descriptions
