@@ -1,33 +1,41 @@
 .navbar {
-
-    width: 100%;
-    background-color: #FDFDFE;
-    color: #A7A8AD;
-    display: flex;
-    position: sticky;
-    z-index: 9;
-    bottom: 0;
-    padding: 17px 20px 12px 20px;
-    max-width: 430px;
-    box-shadow: rgba(0, 0, 0, 0.14) 0px -1px 10px 0px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    max-height: 84px;
+  width: 100%;
+  background-color: #FDFDFE;
+  color: #A7A8AD;
+  display: flex;
+  position: sticky;
+  z-index: 9;
+  bottom: 0;
+  padding: 17px 20px 12px 20px;
+  max-width: 430px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px -1px 10px 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  max-height: 84px;
 
   .nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    i {
+      margin-bottom: 5px;
+    }
 
     p {
-      padding: 10px;
-      color:#A7A8AD;
-      margin-bottom: 0;
+      padding: 0;
+      color: #A7A8AD;
+      margin: 0;
     }
   }
 
   .nav-link:hover {
     color: $orange;
+
     p {
       color: $orange;
     }

@@ -24,7 +24,7 @@ class ActivitiesController < ApplicationController
         center: [ activity.longitude, activity.latitude ],
         zoom: 10
       }
-    end 
+    end
 
     @markers = @activities.geocoded.map { |activity|
       { lat: activity.latitude,
@@ -85,8 +85,6 @@ class ActivitiesController < ApplicationController
     redirect_to activities_path, status: :see_other, alert: "Activity deleted"
   end
 
-
-
   private
 
   def set_activity
@@ -96,6 +94,4 @@ class ActivitiesController < ApplicationController
   def activity_params
     params.require(:activity).permit(:title, :description, :location, :latitude, :longitude, :time, photos: [])
   end
-
-
 end
