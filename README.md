@@ -3,6 +3,7 @@
 TravelPals is a web application that connects travelers worldwide. Users can create profiles, join and host events in various categories, and chat with each other.
 
 https://travelpals.herokuapp.com/
+Login: john@gmail.com | Password: abc123
 
 ---
 
